@@ -1,0 +1,6 @@
+The conversion formula looks as follows:
+(F - 32) * 5 / 9 + 273.16; 
+The program produced incorrect result due to incorrect precedence caused by placing expression "5/9" in parenthesis.
+Also the "5/9" expression must follow (F-32) since multiplication must be executed prior to division.
+The correct statement should look as follows:
+double k = (fahrenheit-32)*5/9 + 273.16;
