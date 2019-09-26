@@ -1,0 +1,1 @@
+ Variables x and y are defined within main() method and are not visible from computeSum() method  
